@@ -1,0 +1,266 @@
+/* body{
+    background-image: url("https://drive.google.com/file/d/1fikDZ8zVSUl3vJ4FnBbEuVRbQvf6tchD/view?usp=sharing");
+    background-image: url("https://drive.google.com/file/d/1jEfk7cV8Kl6w8iyKDw7JBQxwFkSo-oqA/view?usp=sharing");
+    background-image: url("https://drive.google.com/file/d/1jEfk7cV8Kl6w8iyKDw7JBQxwFkSo-oqA/view?usp=sharing");
+    
+} */
+
+ 
+body{
+    width: 80%;
+    margin-left: 300px;
+    margin-right: 300px;
+    overflow-y: scroll;
+}
+
+section, footer{
+    width: inherit;
+}
+
+.logo{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.bg-text{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.landing-bg{ 
+    background-image: url('./images/landing.jpg');
+    background-repeat: no-repeat;
+    height: 500px;
+    text-align: center;
+    clear: both;
+
+}
+
+/* meals div */
+.meal-hours{
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+
+.meal-images{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-top: 0px;
+}
+.meal-images div>p{
+    padding-top: 80px;
+    font-style: italic;
+}
+
+.meal-hours div>p{
+    padding-top: 30px;
+}
+
+.breakfast{
+    background-image: url('./images/breakfast.jpg');
+    height: 220px;
+    width: 360px;
+    color: white;
+    text-align: center;
+}
+
+.lunch{
+    background-image: url('./images/lunch.jpg');
+    height: 220px;
+    width: 360px;
+    color: white;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+}
+
+.dinner{
+    background-image: url('./images/dinner2.jpg');
+    height: 220px;
+    width: 360px;
+    color: white;
+    text-align: center;
+}
+
+.happy-hour{
+    background-color:grey;
+    color:solid gray;
+    height: 110px;
+    width: 320px;
+    text-align: center;
+}
+
+.Party-hour{
+    color: white;
+    background-color:#f15a29;
+    text-align: center;
+    height: 110px;
+    width: 320px;
+
+}
+.sol-images-1{
+    display: flex;
+    flex-direction: column;
+    
+    width: 500px; 
+    border: 20px solid white;
+    margin-left:300px;
+    box-shadow: 0px 0px 3px wheat;
+    
+}
+
+.served-foods{
+margin-top: 100px;
+}
+.sol-text{
+    float: right;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.solid-food{
+    display: flex;
+    flex-direction:row;
+    clear: right;
+    margin-block-start: right;
+}
+.sol-images-2{
+    float: right;
+    display: flex;
+    flex-direction: row;
+    margin-right:300px;
+    box-shadow: 0px 0px 3px wheat;
+
+}
+.solid-drink{
+    display:flex;
+    flex-direction: row;  
+}
+
+.food-part{
+    display: ;
+}
+.sol-images-2{
+    float: left;
+}
+h1, h2, {
+    color: grey;
+}
+.menu-images{
+    background-image: url('./images/foodsBg.jpg');
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu-links{
+    background-color: grey;
+    width:60px;
+    padding: 20px 40px;
+}
+
+.menu-links2 li{
+    display: inline;
+}
+
+.customer-view{
+    width: 80%;
+    margin:60px;
+    margin-left: 80px;
+    padding: 40px;
+    box-shadow: 0 0 10px grey;
+}
+.comments{
+    text-align: center;
+    width: 70%;
+    border-right: 1px solid black;
+    
+}
+
+.comments h3, .about h2{
+    color: #f15a29;
+}
+
+.customer-view{
+    display: flex;
+    flex-direction: row;
+}
+.about{
+    margin-left: 40px;
+}
+
+.subscribe{
+    background-image: url('./images/subscribe.jpg');
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 400px;
+}
+
+.input-email{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+form input{
+    background-color: rgba(194, 188, 188, 0.781);
+    padding-left: 20px;
+    color: #ffff;
+    width: 400px;
+    height:40px
+}
+
+.email{
+    padding-top: 80px;
+    margin-top: 40px;
+    border-style: none;
+    border-radius: 5pxx;
+}
+
+.subscribe-button{
+    background-color: #f15a29;
+    color: white;
+    width: 100px;
+    margin-left: 20px;
+    border-style: none;
+    
+}
+
+.email h2{
+    color: #ffff;
+}
+
+footer{
+    background-color: #f15a29;
+    text-align: center;
+    padding: 30px;
+}
+
+.footer-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 10px;
+}
+.footer-logo p{
+    padding-left: 20px;
+    font-size:g0px;
+    color: #ffff;
+}
+
+.footer-icons img{
+    padding-left: 20px;
+}
+
+footer p{
+    color: #ffff;
+}
+
+
