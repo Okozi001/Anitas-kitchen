@@ -20,7 +20,7 @@ section, footer{
 .logo{
     text-align: center;
     margin-top: 60px;
-    margin-bottom: 30px;
+    margin-bottom: 29px;
 }
 .bg-text{
     text-align: center;
@@ -67,6 +67,7 @@ section, footer{
     width: 360px;
     color: white;
     text-align: center;
+    font-size: large;
 }
 
 .lunch{
@@ -75,6 +76,7 @@ section, footer{
     width: 360px;
     color: white;
     text-align: center;
+    font-size: large;
 }
 
 .container{
@@ -89,6 +91,7 @@ section, footer{
     width: 360px;
     color: white;
     text-align: center;
+    font-size: larger;
 }
 
 .happy-hour{
